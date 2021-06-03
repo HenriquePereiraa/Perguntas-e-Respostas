@@ -1,0 +1,8 @@
+html,body{
+    background-color:rgb(235, 235, 235);
+}
+
+.white{background-color: #ffff;}
+.top{margin:5vh auto;}
+.center{text-align: center;margin:5vh 0;}
+label,button{margin: 2vh 0;}

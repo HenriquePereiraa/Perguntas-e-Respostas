@@ -1,0 +1,23 @@
+<%- include('partials/head.ejs') %>
+<%- include('partials/navbar.ejs') %>
+
+<h2 class="center">Fazer Pergunta</h2>
+
+<div class="container white top">
+   <form method="POST" action="/salvarpergunta">
+
+       <div class="form-group">
+           <label>Titulo</label>
+           <input type="text" class="form-control" placeholder="titulo" name="titulo">
+       </div>
+
+        <div class="form-group">
+            <label>Descrição</label>
+            <textarea class="form-control" rows="4" name="descricao"></textarea>
+        </div>
+        <button class="btn-success">Fazer Perguntar</button>
+
+   </form>
+</div>
+
+<%- include('partials/scripts.ejs') %>
